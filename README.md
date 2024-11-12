@@ -1,4 +1,3 @@
-1.
 # **Recipe App**
 
 ## Description
@@ -38,7 +37,6 @@ Ensure you have:
 
 
 
-2.
 # **Movies App**
 
 ## Description
@@ -90,7 +88,6 @@ Ensure you have:
 
 
 
-3.
 # **Weather App**
 
 ## Description
