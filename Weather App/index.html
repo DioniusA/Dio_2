@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Finder</title>
+
+    <!-- Link to the CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Weather Finder</h1>
+        <!-- Search container for user input -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Enter city name...">
+            <button id="location-btn">Use My Location</button>
+            <label>
+                <input type="checkbox" id="unit-toggle">
+                Celsius / Fahrenheit
+            </label>
+        </div>
+    </header>
+
+    <!-- Main section for weather details -->
+    <main id="weather-grid">
+        <!-- Current weather section -->
+        <section id="current-weather"></section>
+        
+        <!-- 5-day forecast section -->
+        <section id="forecast"></section>
+    </main>
+
+    <!-- Link to the JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

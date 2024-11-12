@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+
+    <!-- Link to the CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Preconnecting to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Josefin Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header section -->
+    <header>
+        <h1>Recipe Finder</h1>
+
+        <!-- Search container for user input -->
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Search for recipes...">
+        </div>
+    </header>
+
+    <!-- Main section -->
+    <main id="recipe-grid"></main>
+
+    <!-- Modal structure -->
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+
+            <span id="close-modal">&times;</span>
+            <h2 id="recipe-title"></h2>
+
+            <img id="recipe-image" alt="Recipe Image">
+            <p id="recipe-prep-time"></p>
+
+            <h3>Ingredients</h3>
+            <ul id="recipe-ingredients"></ul>
+
+            <h3>Instructions</h3>
+            <p id="recipe-instructions"></p>
+
+            <h3>Nutritional Information</h3>
+            <p id="recipe-nutrition"></p>
+            
+            <button id="favorite-btn">Add to Favorites</button>
+        </div>
+    </div>
+
+    <!-- Favorites section -->
+    <section id="favorites-section">
+        <h2>Your Favorites</h2>
+        <div id="favorites-grid"></div> 
+    </section>
+
+    <!-- Link to the JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
