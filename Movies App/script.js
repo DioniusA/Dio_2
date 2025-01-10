@@ -1,5 +1,5 @@
 // API key and get DOM elements
-const apiKey = '8de3172eeecd0d4b5f606f23d7c74adc';
+const apiKey = '';
 const searchInput = document.getElementById('search');
 const movieGrid = document.getElementById('movie-grid');
 const modal = document.getElementById('movie-modal');
