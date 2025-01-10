@@ -1,5 +1,5 @@
 // API Key and DOM elements
-const apiKey = 'be40959c24f44b389b152bfdbbc614c1';
+const apiKey = '';
 const searchInput = document.getElementById('search');           
 const recipeGrid = document.getElementById('recipe-grid');       
 const modal = document.getElementById('recipe-modal');           
