@@ -1,4 +1,4 @@
-const apiKey = '5b2a767ad5f24f1abac6631b3cd41ba1';
+const apiKey = '';
 
 document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('search');
